@@ -1,25 +1,126 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="MgO-dg-Dvd">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Navigation Controller-->
+        <scene sceneID="EdN-uY-Le2">
+            <objects>
+                <navigationController id="MgO-dg-Dvd" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wYf-gb-9Bb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="1" green="0.54016038232166108" blue="0.57811119371817621" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="uhR-hx-ROc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AQU-qP-43r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-771" y="449"/>
+        </scene>
+        <!--卡片轮播-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <view key="view" contentMode="scaleToFill" id="1aM-FA-qhq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fantuan" translatesAutoresizingMaskIntoConstraints="NO" id="2tC-CT-8en">
+                                <rect key="frame" x="153" y="216" width="67" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="67" id="LPD-Kp-ocA"/>
+                                    <constraint firstAttribute="height" constant="56" id="TM7-3E-Kyy"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="暂时没有更多数据了哦" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YNc-oO-4qK">
+                                <rect key="frame" x="117" y="292" width="140" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ewn-0P-wAs">
+                                <rect key="frame" x="152" y="582" width="70" height="70"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="8Dn-06-g5F"/>
+                                    <constraint firstAttribute="width" constant="70" id="fSA-qh-bNQ"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal" backgroundImage="pingzi"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ND-5d-kOL">
+                                <rect key="frame" x="247" y="582" width="70" height="70"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal" backgroundImage="tui"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zAr-SI-dDm">
+                                <rect key="frame" x="57" y="582" width="70" height="70"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal" backgroundImage="mes">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lnM-qq-wne">
+                                <rect key="frame" x="15" y="35" width="345" height="532"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Nv-ub-4lp">
+                                <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.92156862750000001" green="0.3803921569" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2tC-CT-8en" firstAttribute="centerX" secondItem="YNc-oO-4qK" secondAttribute="centerX" id="1YK-Ca-8Pu"/>
+                            <constraint firstItem="zAr-SI-dDm" firstAttribute="width" secondItem="ewn-0P-wAs" secondAttribute="width" id="4pg-PC-3Dk"/>
+                            <constraint firstItem="YNc-oO-4qK" firstAttribute="centerX" secondItem="lnM-qq-wne" secondAttribute="centerX" id="5cM-50-Qth"/>
+                            <constraint firstItem="YNc-oO-4qK" firstAttribute="top" secondItem="2tC-CT-8en" secondAttribute="bottom" constant="20" id="7sw-pa-RxC"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="zAr-SI-dDm" secondAttribute="bottom" constant="15" id="HHr-BC-taK"/>
+                            <constraint firstItem="2tC-CT-8en" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="152" id="JKD-cD-8Pg"/>
+                            <constraint firstItem="3ND-5d-kOL" firstAttribute="height" secondItem="ewn-0P-wAs" secondAttribute="height" id="NhE-Lu-JgZ"/>
+                            <constraint firstItem="3ND-5d-kOL" firstAttribute="top" secondItem="ewn-0P-wAs" secondAttribute="top" id="Nkd-bS-UCX"/>
+                            <constraint firstItem="ewn-0P-wAs" firstAttribute="centerX" secondItem="1aM-FA-qhq" secondAttribute="centerX" id="Pdz-jn-RFr"/>
+                            <constraint firstItem="ewn-0P-wAs" firstAttribute="leading" secondItem="zAr-SI-dDm" secondAttribute="trailing" constant="25" id="X7X-Sk-4qm"/>
+                            <constraint firstItem="3ND-5d-kOL" firstAttribute="leading" secondItem="ewn-0P-wAs" secondAttribute="trailing" constant="25" id="eYO-C8-sAR"/>
+                            <constraint firstItem="zAr-SI-dDm" firstAttribute="top" secondItem="ewn-0P-wAs" secondAttribute="top" id="iBs-zA-bXo"/>
+                            <constraint firstAttribute="trailing" secondItem="lnM-qq-wne" secondAttribute="trailing" constant="15" id="jEU-zQ-jar"/>
+                            <constraint firstItem="YNc-oO-4qK" firstAttribute="centerY" secondItem="lnM-qq-wne" secondAttribute="centerY" id="m0F-mn-0gM"/>
+                            <constraint firstItem="ewn-0P-wAs" firstAttribute="top" secondItem="lnM-qq-wne" secondAttribute="bottom" constant="15" id="rAn-w6-n8E"/>
+                            <constraint firstItem="zAr-SI-dDm" firstAttribute="height" secondItem="ewn-0P-wAs" secondAttribute="height" id="sFa-Ow-iEZ"/>
+                            <constraint firstItem="lnM-qq-wne" firstAttribute="leading" secondItem="1aM-FA-qhq" secondAttribute="leading" constant="15" id="sYh-DA-hMz"/>
+                            <constraint firstItem="3ND-5d-kOL" firstAttribute="width" secondItem="ewn-0P-wAs" secondAttribute="width" id="ub1-ct-H3h"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="卡片轮播" id="zca-Rn-teT"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="nextButton" destination="3ND-5d-kOL" id="koX-BT-9YV"/>
+                        <outlet property="pingziButton" destination="ewn-0P-wAs" id="ucA-z4-rA2"/>
+                        <outlet property="tuijianButton" destination="zAr-SI-dDm" id="MsY-FN-DEd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-214.5" y="454.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="fantuan" width="67" height="56"/>
+        <image name="mes" width="79" height="79"/>
+        <image name="pingzi" width="89" height="89"/>
+        <image name="tui" width="79" height="79"/>
+    </resources>
 </document>

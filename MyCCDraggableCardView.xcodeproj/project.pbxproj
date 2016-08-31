@@ -15,6 +15,25 @@
 		8ADB56DD1D766B8800BF86A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ADB56DB1D766B8800BF86A7 /* LaunchScreen.storyboard */; };
 		8ADB56E81D766B8800BF86A7 /* MyCCDraggableCardViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADB56E71D766B8800BF86A7 /* MyCCDraggableCardViewTests.m */; };
 		8ADB56F31D766B8800BF86A7 /* MyCCDraggableCardViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADB56F21D766B8800BF86A7 /* MyCCDraggableCardViewUITests.m */; };
+		8ADB57061D766BA500BF86A7 /* CCDraggableCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADB57021D766BA500BF86A7 /* CCDraggableCardView.m */; };
+		8ADB57071D766BA500BF86A7 /* CCDraggableContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADB57051D766BA500BF86A7 /* CCDraggableContainer.m */; };
+		8ADB570B1D766E9400BF86A7 /* MyCCDraggableCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADB570A1D766E9400BF86A7 /* MyCCDraggableCardView.m */; };
+		8ADB570F1D766ECC00BF86A7 /* MyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADB570E1D766ECC00BF86A7 /* MyModel.m */; };
+		8ADB57201D7671F200BF86A7 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADB57111D7671F200BF86A7 /* 1.png */; };
+		8ADB57211D7671F200BF86A7 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADB57121D7671F200BF86A7 /* 10.png */; };
+		8ADB57221D7671F200BF86A7 /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADB57131D7671F200BF86A7 /* 11.png */; };
+		8ADB57231D7671F200BF86A7 /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADB57141D7671F200BF86A7 /* 12.png */; };
+		8ADB57241D7671F200BF86A7 /* 13.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADB57151D7671F200BF86A7 /* 13.png */; };
+		8ADB57251D7671F200BF86A7 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADB57161D7671F200BF86A7 /* 2.png */; };
+		8ADB57261D7671F200BF86A7 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADB57171D7671F200BF86A7 /* 3.png */; };
+		8ADB57271D7671F200BF86A7 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADB57181D7671F200BF86A7 /* 4.png */; };
+		8ADB57281D7671F200BF86A7 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADB57191D7671F200BF86A7 /* 5.png */; };
+		8ADB57291D7671F200BF86A7 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADB571A1D7671F200BF86A7 /* 6.png */; };
+		8ADB572A1D7671F200BF86A7 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADB571B1D7671F200BF86A7 /* 7.png */; };
+		8ADB572B1D7671F200BF86A7 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADB571C1D7671F200BF86A7 /* 8.png */; };
+		8ADB572C1D7671F200BF86A7 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ADB571D1D7671F200BF86A7 /* 9.png */; };
+		8ADB572D1D7671F200BF86A7 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ADB571E1D7671F200BF86A7 /* Launch Screen.storyboard */; };
+		8ADB572E1D7671F200BF86A7 /* loading@2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8ADB571F1D7671F200BF86A7 /* loading@2x.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +70,30 @@
 		8ADB56EE1D766B8800BF86A7 /* MyCCDraggableCardViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCCDraggableCardViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ADB56F21D766B8800BF86A7 /* MyCCDraggableCardViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCCDraggableCardViewUITests.m; sourceTree = "<group>"; };
 		8ADB56F41D766B8800BF86A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ADB57011D766BA500BF86A7 /* CCDraggableCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDraggableCardView.h; sourceTree = "<group>"; };
+		8ADB57021D766BA500BF86A7 /* CCDraggableCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDraggableCardView.m; sourceTree = "<group>"; };
+		8ADB57031D766BA500BF86A7 /* CCDraggableConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDraggableConfig.h; sourceTree = "<group>"; };
+		8ADB57041D766BA500BF86A7 /* CCDraggableContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDraggableContainer.h; sourceTree = "<group>"; };
+		8ADB57051D766BA500BF86A7 /* CCDraggableContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDraggableContainer.m; sourceTree = "<group>"; };
+		8ADB57091D766E9400BF86A7 /* MyCCDraggableCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCCDraggableCardView.h; sourceTree = "<group>"; };
+		8ADB570A1D766E9400BF86A7 /* MyCCDraggableCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCCDraggableCardView.m; sourceTree = "<group>"; };
+		8ADB570D1D766ECC00BF86A7 /* MyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyModel.h; sourceTree = "<group>"; };
+		8ADB570E1D766ECC00BF86A7 /* MyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyModel.m; sourceTree = "<group>"; };
+		8ADB57111D7671F200BF86A7 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		8ADB57121D7671F200BF86A7 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		8ADB57131D7671F200BF86A7 /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		8ADB57141D7671F200BF86A7 /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		8ADB57151D7671F200BF86A7 /* 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13.png; sourceTree = "<group>"; };
+		8ADB57161D7671F200BF86A7 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		8ADB57171D7671F200BF86A7 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		8ADB57181D7671F200BF86A7 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		8ADB57191D7671F200BF86A7 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		8ADB571A1D7671F200BF86A7 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		8ADB571B1D7671F200BF86A7 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		8ADB571C1D7671F200BF86A7 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		8ADB571D1D7671F200BF86A7 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		8ADB571E1D7671F200BF86A7 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		8ADB571F1D7671F200BF86A7 /* loading@2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "loading@2x.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +144,9 @@
 		8ADB56CC1D766B8800BF86A7 /* MyCCDraggableCardView */ = {
 			isa = PBXGroup;
 			children = (
+				8ADB570C1D766EBD00BF86A7 /* Model */,
+				8ADB57081D766E7600BF86A7 /* View */,
+				8ADB57001D766BA500BF86A7 /* CCDraggableCard */,
 				8ADB56D01D766B8800BF86A7 /* AppDelegate.h */,
 				8ADB56D11D766B8800BF86A7 /* AppDelegate.m */,
 				8ADB56D31D766B8800BF86A7 /* ViewController.h */,
@@ -117,6 +163,7 @@
 		8ADB56CD1D766B8800BF86A7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8ADB57101D7671F200BF86A7 /* 启动页 */,
 				8ADB56CE1D766B8800BF86A7 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +185,58 @@
 				8ADB56F41D766B8800BF86A7 /* Info.plist */,
 			);
 			path = MyCCDraggableCardViewUITests;
+			sourceTree = "<group>";
+		};
+		8ADB57001D766BA500BF86A7 /* CCDraggableCard */ = {
+			isa = PBXGroup;
+			children = (
+				8ADB57011D766BA500BF86A7 /* CCDraggableCardView.h */,
+				8ADB57021D766BA500BF86A7 /* CCDraggableCardView.m */,
+				8ADB57031D766BA500BF86A7 /* CCDraggableConfig.h */,
+				8ADB57041D766BA500BF86A7 /* CCDraggableContainer.h */,
+				8ADB57051D766BA500BF86A7 /* CCDraggableContainer.m */,
+			);
+			path = CCDraggableCard;
+			sourceTree = "<group>";
+		};
+		8ADB57081D766E7600BF86A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8ADB57091D766E9400BF86A7 /* MyCCDraggableCardView.h */,
+				8ADB570A1D766E9400BF86A7 /* MyCCDraggableCardView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8ADB570C1D766EBD00BF86A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8ADB570D1D766ECC00BF86A7 /* MyModel.h */,
+				8ADB570E1D766ECC00BF86A7 /* MyModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8ADB57101D7671F200BF86A7 /* 启动页 */ = {
+			isa = PBXGroup;
+			children = (
+				8ADB57111D7671F200BF86A7 /* 1.png */,
+				8ADB57121D7671F200BF86A7 /* 10.png */,
+				8ADB57131D7671F200BF86A7 /* 11.png */,
+				8ADB57141D7671F200BF86A7 /* 12.png */,
+				8ADB57151D7671F200BF86A7 /* 13.png */,
+				8ADB57161D7671F200BF86A7 /* 2.png */,
+				8ADB57171D7671F200BF86A7 /* 3.png */,
+				8ADB57181D7671F200BF86A7 /* 4.png */,
+				8ADB57191D7671F200BF86A7 /* 5.png */,
+				8ADB571A1D7671F200BF86A7 /* 6.png */,
+				8ADB571B1D7671F200BF86A7 /* 7.png */,
+				8ADB571C1D7671F200BF86A7 /* 8.png */,
+				8ADB571D1D7671F200BF86A7 /* 9.png */,
+				8ADB571E1D7671F200BF86A7 /* Launch Screen.storyboard */,
+				8ADB571F1D7671F200BF86A7 /* loading@2x.gif */,
+			);
+			path = "启动页";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,7 +342,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ADB572B1D7671F200BF86A7 /* 8.png in Resources */,
+				8ADB572C1D7671F200BF86A7 /* 9.png in Resources */,
+				8ADB572D1D7671F200BF86A7 /* Launch Screen.storyboard in Resources */,
+				8ADB57271D7671F200BF86A7 /* 4.png in Resources */,
+				8ADB57211D7671F200BF86A7 /* 10.png in Resources */,
+				8ADB57221D7671F200BF86A7 /* 11.png in Resources */,
+				8ADB572A1D7671F200BF86A7 /* 7.png in Resources */,
+				8ADB57231D7671F200BF86A7 /* 12.png in Resources */,
 				8ADB56DD1D766B8800BF86A7 /* LaunchScreen.storyboard in Resources */,
+				8ADB57201D7671F200BF86A7 /* 1.png in Resources */,
+				8ADB57291D7671F200BF86A7 /* 6.png in Resources */,
+				8ADB57261D7671F200BF86A7 /* 3.png in Resources */,
+				8ADB57241D7671F200BF86A7 /* 13.png in Resources */,
+				8ADB57251D7671F200BF86A7 /* 2.png in Resources */,
+				8ADB572E1D7671F200BF86A7 /* loading@2x.gif in Resources */,
+				8ADB57281D7671F200BF86A7 /* 5.png in Resources */,
 				8ADB56DA1D766B8800BF86A7 /* Assets.xcassets in Resources */,
 				8ADB56D81D766B8800BF86A7 /* Main.storyboard in Resources */,
 			);
@@ -270,8 +384,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ADB570B1D766E9400BF86A7 /* MyCCDraggableCardView.m in Sources */,
+				8ADB570F1D766ECC00BF86A7 /* MyModel.m in Sources */,
+				8ADB57061D766BA500BF86A7 /* CCDraggableCardView.m in Sources */,
 				8ADB56D51D766B8800BF86A7 /* ViewController.m in Sources */,
 				8ADB56D21D766B8800BF86A7 /* AppDelegate.m in Sources */,
+				8ADB57071D766BA500BF86A7 /* CCDraggableContainer.m in Sources */,
 				8ADB56CF1D766B8800BF86A7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
