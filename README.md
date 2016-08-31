@@ -7,7 +7,7 @@
           -(void)loadDataWithPage:(int) page`
          
   里面的代码改成自己的逻辑，把模型和视图修改替换就好了
- ![例如代码中的](https://github.com/easyhaipi/MyCCDraggableCardView/raw/master/cardView.png)
+ ![例如代码中的](https://github.com/easyhaipi/MyCCDraggableCardView/raw/master/carView.png)
          
   效果图如下：着实有点丑，颜色搭配也不好，自己修改就行
   ![效果图](https://github.com/easyhaipi/MyCCDraggableCardView/raw/master/carView-Demo.png)
